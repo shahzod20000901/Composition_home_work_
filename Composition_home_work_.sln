@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composition_home_work_", "Composition_home_work_\Composition_home_work_.csproj", "{553FC4A4-091A-4692-B53A-9A04FE7F3AA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "chess_place_of_game", "chess_place_of_game\chess_place_of_game.csproj", "{553FC4A4-091A-4692-B53A-9A04FE7F3AA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
