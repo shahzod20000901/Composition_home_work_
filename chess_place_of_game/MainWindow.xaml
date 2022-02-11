@@ -16,10 +16,8 @@
         </Style>
     </Window.Resources>
     
-    
-    <DockPanel Background="Orange">
-        
-        <Grid ShowGridLines="True">
+  
+        <Grid ShowGridLines="False">
             <Grid.RowDefinitions>
                 <RowDefinition  />
                 <RowDefinition/>
@@ -40,8 +38,41 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
+            <Grid.Background>Gold</Grid.Background>
+            <Grid Grid.Row="0" Grid.Column="0"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="0" Grid.Column="2"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="0" Grid.Column="4"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="0" Grid.Column="6"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="1" Grid.Column="1"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="1" Grid.Column="3"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="1" Grid.Column="5"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="1" Grid.Column="7"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="2" Grid.Column="0"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="2" Grid.Column="2"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="2" Grid.Column="4"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="2" Grid.Column="6"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="3" Grid.Column="1"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="3" Grid.Column="3"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="3" Grid.Column="5"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="3" Grid.Column="7"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="4" Grid.Column="0"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="4" Grid.Column="2"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="4" Grid.Column="4"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="4" Grid.Column="6"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="5" Grid.Column="1"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="5" Grid.Column="3"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="5" Grid.Column="5"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="5" Grid.Column="7"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="6" Grid.Column="0"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="6" Grid.Column="2"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="6" Grid.Column="4"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="6" Grid.Column="6"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="7" Grid.Column="1"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="7" Grid.Column="3"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="7" Grid.Column="5"  Grid.Background="Chocolate"></Grid>
+            <Grid Grid.Row="7" Grid.Column="7"  Grid.Background="Chocolate"></Grid>
                 </Grid>
-        <DockPanel.Dock></DockPanel.Dock>
-    </DockPanel>
+        
+
     
 </Window>
